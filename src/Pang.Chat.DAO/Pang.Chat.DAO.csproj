@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SuperSocket.Server" Version="2.0.0-beta.10.362" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Base\" />
+  </ItemGroup>
+
+</Project>
